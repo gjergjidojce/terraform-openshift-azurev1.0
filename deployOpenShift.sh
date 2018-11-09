@@ -456,7 +456,7 @@ new_nodes
 
 # Set variables common for all OSEv3 hosts
 [OSEv3:vars]
-ansible_ssh_user=$SUDOUSER
+ansible_ssh_user=root
 ansible_become=true
 openshift_install_examples=true
 openshift_deployment_type=origin
@@ -537,7 +537,7 @@ new_nodes
 
 # Set variables common for all OSEv3 hosts
 [OSEv3:vars]
-ansible_ssh_user=$SUDOUSER
+ansible_ssh_user=root
 ansible_become=true
 openshift_install_examples=true
 openshift_deployment_type=origin
